@@ -1,0 +1,1 @@
+#Setting of VS to imply c++ projects and files

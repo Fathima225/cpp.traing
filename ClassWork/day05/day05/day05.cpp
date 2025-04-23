@@ -8,7 +8,7 @@ enum genre {
 	Sifi
 };
 enum language {
-	English=1,
+	English = 1,
 	Hindi,
 	Tamil,
 	Telugu,
@@ -18,7 +18,7 @@ enum language {
 };
 
 int main()
-{/*
+{
 	int inputLang;
 	char typeShows[20];
 	//char genre[20];
@@ -37,28 +37,28 @@ int main()
 		default:
 			cout << "No Genre found" << endl;
 			break;
-	case Action:
-		cout << "Choose Genre: Action" << endl;
-		break;
-	case Comedy:
-		cout << "Choose Genre: Comedy" << endl;
-		break;
-	case Thriller:
-		cout << "Choose Genre: Thriller" << endl;
-		break;
-	case Mystery:
-		cout << "Choose Genre: Mystery" << endl;
-		break;
-	
-	
-		
-	}
+		case Action:
+			cout << "Choose Genre: Action" << endl;
+			break;
+		case Comedy:
+			cout << "Choose Genre: Comedy" << endl;
+			break;
+		case Thriller:
+			cout << "Choose Genre: Thriller" << endl;
+			break;
+		case Mystery:
+			cout << "Choose Genre: Mystery" << endl;
+			break;
+
+
+
+		}
 		break;
 	case Hindi:
 		cout << "You have choosen Hindi" << endl;
 		cout << "Enter the Genre:";
 		cin >> inputGenre;
-		switch(inputGenre)
+		switch (inputGenre)
 		{
 		case Action:
 			cout << "Choosed Genre:Action" << endl;
@@ -66,35 +66,11 @@ int main()
 		case Comedy:
 			cout << "Choosed Genre:Comedy" << endl;
 			break;
-	
-	*/
 
-	cout << "Hello Fatima" << endl;
- }
 
-/*enum waterFilter {
-	Cold,
-	Hot,
-	Normal
-};
 
-int main()
-{
-	int inputwaterFilter;
-	cin >> inputwaterFilter;
-	switch (inputwaterFilter)
-	{
-	default:
-		cout << "No inputwaterFilter found" << endl;
-		break;
-	case Cold:
-		cout << "Choose waterFilter: Cold" <<Cold<< endl;
-		break;
-	case  Hot:
-		cout << "Choose waterFilter: Hot" <<Hot<< endl;
-		break;
-	case  Normal:
-		cout << "Choose waterFilter: Normal" <<Normal<< endl;
-		break;
+
+		}
 	}
-}*/
+}
+
