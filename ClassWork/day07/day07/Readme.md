@@ -1,0 +1,1 @@
+#This day was ment for how to arrange file anf floder structure in VS for push in github
