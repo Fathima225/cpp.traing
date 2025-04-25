@@ -14,6 +14,13 @@ int main()
 
 	float avg_01, avg_02, avg_03, avg_04, avg_05;
 
+	scanf("%d%f%f%f%f", &id_01, &m1_01, &m2_01, &m3_01, &m4_01);
+	avg_01 = (m1_01 + m2_01 + m3_01 + m4_01) / 4.0;
+
+
+	slno = 1;
+
+
 	
 
 }
