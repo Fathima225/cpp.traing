@@ -1,27 +1,35 @@
-#include<iostream>
+#include <iostream>
+#define CAP 10
+
 using namespace std;
 
+int main()
+{
+	int arr[CAP];
+	int iv;
+	int gValue = 0;
 
-int main() {
-	int arr[5];
-	int n;
-	
+	cout << "Enter the " << CAP << " element values of array" << endl;
+	for (iv = 0;iv < CAP;iv++)
+		cin >> arr[iv];
 
+	cout << "Element of array" << endl;
+	for (iv = 0;iv < CAP;iv++)
+		cout << arr[iv] << endl;
 
-	cout << "Enter 5 integers:" << endl;
-	
-	cin >>n;
+	cout << "Enter value to be searched in the list: ";
+	cin >> gValue;
 
-	for (int iv = 0;iv < 5;iv++) {
-		cout << "arr[" << iv << "] = " << arr[iv] << endl;
-
-
-		if (arr[iv] == n) {
-			cout << "given number is present here";
-		}
-		else {
-			cout << "Enter the correct number";
-		}
+	for (iv = 0;iv < CAP;iv++)
+	{
+		if (arr[iv] == gValue)
+			break;
 	}
-	return 0;
+
+	if (iv == CAP)
+		cout << gValue << " Element not found in the list" << endl;
+	else
+		cout << gValue << " Element found in the list at index value = " << iv << endl;
+
+
 }
