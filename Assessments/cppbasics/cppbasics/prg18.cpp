@@ -1,0 +1,1 @@
+//18.Write a Program to Check Whether a Number is an Armstrong Number or Not.
