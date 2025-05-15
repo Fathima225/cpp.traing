@@ -21,27 +21,27 @@ struct address
 
 };
 
-int add(struct address a[],int);
+int add(struct address a[], int);
 int del(char);
 int search(char);
 int update(char);
-void display(struct address a[],int);
+void display(struct address a[], int);
 int menu(int);
 
 int main()
 {
-	
+
 	struct address a[CAP];
 	int n = 2;
 	add(a, n);
-	display(a,n);
+	display(a, n);
 	return 0;
 
 }
-int add(struct address a[],int n)
+int add(struct address a[], int n)
 {
-	
-	cout<<"Enter the number of person's address you want to enter" << endl;
+
+	cout << "Enter the number of person's address you want to enter" << endl;
 	cin >> n;
 	//struct address a[CAP];
 	for (int i = 0; i < n; i++) {
@@ -79,14 +79,14 @@ int del(char name)
 	cout << "Enter the name of the address you want to delete" << endl;
 	cin >> name;
 	struct address a;
-	
+
 	/*
 	struct book b;
 	if (strcmp(b.name, a.name) == 0)
 	{
 	true
 	else false
-	
+
 	cout << "Address deleted successfully" << endl;
 	return 0;
 }
@@ -115,7 +115,7 @@ void display()
 	cout << "Street: " << a.street << endl;
 	cout << "District: " << a.district << endl;
 	cout << "State: " << a.state << endl;
-	
+
 }
 
 int menu(int n)
