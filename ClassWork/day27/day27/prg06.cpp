@@ -2,13 +2,13 @@
 #define MAX 100
 using namespace std;
 
-class arrCal
+class arrCalculate
 {
 private:
 	int arr[MAX];
 	int size = 5;
 public:
-	arrCal(int a[], int s)
+	arrCalculate(int a[], int s)
 	{
 		for (int i = 0;i < s;i++)
 		{
@@ -83,7 +83,7 @@ int main()
 	{
 		cin >> arr[i];
 	}
-	arrCal ar(arr, size);
+	arrCalculate ar(arr, size);
 	ar.biggest();
 	int maxx = ar.biggest();
 	cout << maxx << endl;;
