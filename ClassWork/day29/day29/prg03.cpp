@@ -54,12 +54,51 @@ int main()
 
 
 	//until head euqal to null the condition will be in loop
+
+	struct node n4;
+	n4.v = 40;n4.ptr = NULL;
+
+	//add node btw 2 node
+	n1.ptr = &n4;
+	n4.ptr = &n2;
+	head = &n1;
+	
+
+	
+
 	while (head!=NULL)
 	{
 		cout << head->v <<"->";
 		head = head->ptr;
 	}
+
+	struct node n5;
+	n5.v = 50;n5.ptr = NULL;
+
+	//add node btw 2 node
+	n5.ptr = &n1;
+	n1.ptr = &n2;
+	head = &n5;
+	while (head != NULL)
+	{
+		cout << head->v << "->";
+		head = head->ptr;
+	}
+
+	struct node n6;
+	n6.v = 60;n6.ptr = NULL;
+
+	//add node btw 2 node
+	n3.ptr = &n6;
+	head = &n6;
+
+	while (head != NULL)
+	{
+		cout << head->v << "->";
+		head = head->ptr;
+	}
 	cout << "NULL" << endl;
+	
 	return 0;
 
 }
