@@ -1,0 +1,6 @@
+[INFO]Successfully loaded Jobs
+[INFO]Selected FIFO Scheduling
+[INFO]Selected FIFO Scheduling
+[INFO]Successfully loaded Jobs
+[INFO]Selected FIFO Scheduling
+[INFO]Log saved to job_log.txt
